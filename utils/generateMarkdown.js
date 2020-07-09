@@ -1,4 +1,6 @@
-# <h1 style =" text-align:center;"> weather map</h1>
+// function to generate markdown for README
+function generateMarkdown(data) {
+  return `# <h1 style =" text-align:center;"> ${data.title}</h1>
 
 
 <!-- PROJECT LOGO -->
@@ -6,10 +8,10 @@
    
 
 <p align="center">
-   <h style =" text-align:center;">provided daily temp along with five day forecast</h>
+   <h style =" text-align:center;">${data.usage}</h>
 
   <p style =" text-align:center;">
-    daily weather along with five day forcaste
+    ${data.description}
    </p>
 </p>
 
@@ -39,7 +41,7 @@
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo`, `twitter_handle`, `email`
+\`github_username\`, \`repo\`, \`twitter_handle\`, \`email\`
 
 
 <!-- GETTING STARTED -->
@@ -51,26 +53,26 @@ To get a local copy up and running follow these simple steps.
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
-```sh
+\`\`\`sh
 npm install npm@latest -g
-```
+\`\`\`
 
 ### Installation
  
 1. Clone the repo
-```sh
+\`\`\`sh
 git clone https://github.com/github_username/repo.git
-```
+\`\`\`
 2. Install NPM packages
-```sh
+\`\`\`sh
 npm install
-```
+\`\`\`
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-provided daily temp along with five day forecast
+${data.usage}
 
 
 <!-- CONTRIBUTING -->
@@ -80,18 +82,21 @@ Contributions are what make the open source community such an amazing place to b
 
 
 name of contributer 
-berhane
+${data.contribute}
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (\`git checkout -b feature/AmazingFeature\`)
+3. Commit your Changes (\`git commit -m 'Add some AmazingFeature'\`)
+4. Push to the Branch (\`git push origin feature/AmazingFeature\`)
 5. Open a Pull Request
 
 
 
 <!-- LICENSE -->
 ## License
-MIT
-Distributed under the MIT License. See `LICENSE` for more information.
+${data.license}
+Distributed under the MIT License. See \`LICENSE\` for more information.
 
-  
+  `;
+}
+
+module.exports = generateMarkdown;
