@@ -1,97 +1,50 @@
-# <h1 style =" text-align:center;"> weather map</h1>
-
-
-<!-- PROJECT LOGO -->
-
-   
-
-<p align="center">
-   <h style =" text-align:center;">provided daily temp along with five day forecast</h>
-
-  <p style =" text-align:center;">
-    daily weather along with five day forcaste
-   </p>
-</p>
-
-
-
-
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
-
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
+# ddddddddddddddddda
+  GPL 3.0
+  
+  ## Description
+  
+  ddddddddddddd
+  
+  ## Table of Contents 
+  
   * [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
-
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](demo.png)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo`, `twitter_handle`, `email`
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
-
-### Installation
- 
-1. Clone the repo
-```sh
-git clone https://github.com/github_username/repo.git
-```
-2. Install NPM packages
-```sh
-npm install
-```
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-provided daily temp along with five day forecast
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-
-name of contributer 
-berhane
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-MIT
-Distributed under the MIT License. See `LICENSE` for more information.
-
+  
+  * [Usage](#usage)
+  GPL 3.0
+  * [Contributing](#contributing)
+  
+  * [Tests](#tests)
+  
+  * [Questions](#questions)
+  
+  ## Installation
+  
+  To install necessary dependencies, run the following command:
+  
+  ```
+  ddddddddddddddd
+  ```
+  
+  ## Usage
+  
+  ddddddddddddd
+  
+  GPL 3.0
+    
+  ## Contributing
+  
+  ddddddddddddddddd
+  
+  ## Tests
+  
+  To run tests, run the following command:
+  
+  ```
+  dddddddddddddddddd
+  ```
+  
+  ## Questions
+  
+  If you have any questions about the repo, open an issue or contact me directly at dddddddddddddddddddddddddddd. You can find more of my work at [ddddddddddddddddddddd](https://github.com/ddddddddddddddddddddd/).
+  
   

@@ -8,32 +8,32 @@ const generateMarkdown = require("./utils/generateMarkdown")
 const questions = [
   {
     type: "input",
-    message: "Enter your GitHub username:",
-    name: "username",
-  },
-  {
-    type: "input",
-    message: "Enter title name:",
+    message: "what is  the title of this applicatiion:",
     name: "title",
   },
   {
     type: "input",
-    message: "Enter Description:",
+    message: "what is your user name on Github:",
+    name: "github",
+  },
+  {
+    type: "input",
+    message: "what is the Description of this application:",
     name: "description",
   },
   {
     type: "input",
-    message: "Enter Installation:",
+    message: "How does a user install your application? Provide installation here:",
     name: "installation",
   },
   {
     type: "input",
-    message: "Enter Usage:",
+    message: "how does a user use your application? Provide instractoin here:",
     name: "usage",
   },
   {
     type: "input",
-    message: "Enter contribute:",
+    message: "Would you like users apple to report issues or contribute to this project ? add instruction here",
     name: "contribute",
   },
   {
@@ -41,6 +41,16 @@ const questions = [
     message: "Enter License",
     name: "license",
     choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
+  },
+  {
+    type: "input",
+    message: "if you have any question contact us? Provide your email here",
+    name: "email"
+  },
+  {
+    type: "input",
+    message: "what to write to test the code? provide test code ",
+    name: "test"
   },
 ];
 
@@ -73,3 +83,5 @@ function init() {
 
 // function call to initialize program
 init();
+
+
